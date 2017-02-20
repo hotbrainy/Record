@@ -1,0 +1,7 @@
+functions:            #reusable boolean functions
+  - isLoggedIn():      auth.username !== null
+  - createOnly():      next.exists() && !prev.exists()
+  - deleteOnly():      prev.exists() && !next.exists()
+  - createOrDelete():  createOnly() || deleteOnly()
+  - isAdmin():         root.users[auth.uid].admin === true
+
