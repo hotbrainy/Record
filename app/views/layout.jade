@@ -1,0 +1,29 @@
+doctype html
+html
+  head
+    meta(charset='utf8')
+    meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+    meta(name="apple-mobile-web-app-capable", content="yes")
+    meta(name="apple-mobile-web-app-title", content="URBANIA")
+    meta(name="apple-mobile-web-app-status-bar-style", content="black-translucent")
+    meta(name="format-detection", content="telephone=no")
+
+    - var icons = [152, 144, 76, 72, 120, 114, 57]
+    each icon in icons
+      link(rel="apple-touch-icon-precomposed", sizes=icon+'x'+icon, href='/img/icon/'+icon+'.png')
+
+    title= 'URBANIA Record'
+    if production
+      each css in stylesheets
+        link(rel="stylesheet", href='/css/'+css)
+    else
+      link(rel="stylesheet", href="/css/master.css")
+      link(rel="stylesheet", href="/css/material-ui.css")
+  body
+    if production
+      each script in scripts
+        script(src='/js/'+script)
+    else
+      script(src='/js/build.js')
+
+
