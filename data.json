@@ -1,0 +1,68 @@
+{
+  "products": {
+    "UC-16440-UV": {
+      "name": "Calico Natural Oil",
+      "status": "CURRENT",
+      "qty": 908,
+      "id": "UC-16440-UV"
+    },
+    "UC-14004": {
+      "name": "Naked Oak",
+      "status": "CURRENT",
+      "qty": 21795,
+      "id": "UC-14004"
+    },
+    "UC-15226": {
+      "name": "Driftwood",
+      "status": "CURRENT",
+      "qty": 1498.2,
+      "id": "UC-15226"
+    },
+    "UC-18001": {
+      "name": "French Smoked Oak",
+      "status": "SPECIAL",
+      "qty": 30393,
+      "id": "UC-18001"
+    },
+    "UC-15221": {
+      "name": "Burnt Alabaster",
+      "status": "CURRENT",
+      "qty": 0,
+      "id": "UC-15221"
+    },
+    "UC-15222": {
+      "name": "Greige  Oak",
+      "status": "CURRENT",
+      "qty": 9761,
+      "id": "UC-15222"
+    },
+    "UC-15223": {
+      "name": "Ivory & Clay",
+      "status": "CURRENT",
+      "qty": 0,
+      "id": "UC-15223"
+    },
+    "UC-15226": {
+      "name": "Dun Taupe",
+      "status": "CURRENT",
+      "qty": 1452.8,
+      "id": "UC-15226"
+    },
+    "UC-15228": {
+      "name": "Sugar & Spice",
+      "status": "CURRENT",
+      "qty": 5334.5,
+      "id": "UC-15228"
+    }
+  },
+  "users": {
+    "simplelogin:1": {
+      "provider": "password",
+      "email": "adam.zmenak@gmail.com",
+      "lastLogin": "2015-03-13T04:11:53.941Z",
+      "firstName": "Adam",
+      "lastName": "Zmenak",
+      "admin": true
+    }
+  }
+}
