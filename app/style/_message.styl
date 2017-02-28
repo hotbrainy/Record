@@ -1,0 +1,20 @@
+.message-enter
+  opacity 0.01
+  transition opacity 0.5s ease-out
+  &.message-enter-active
+    opacity 1
+.message-leave
+  opacity 1
+  transition opacity 0.5s ease-out
+  &.message-leave-active
+    opacity 0
+
+.message
+  padding 1em
+  font-size 1.5em
+  cursor pointer
+
+  &.message-error
+    background alizarin
+    color #FFF
+
