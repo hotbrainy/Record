@@ -1,0 +1,21 @@
+table
+  width 100%
+  thead
+    tr
+      border-bottom 2px solid conrete
+  tbody
+    tr
+      border-bottom 1px solid silver
+      &:nth-child(2n)
+        background-color clouds
+
+  th, td
+    padding 4px 6px
+
+  &.sortable
+    thead
+      th
+        cursor pointer
+        &.active
+          font-weight bold
+

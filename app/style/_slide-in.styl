@@ -1,0 +1,17 @@
+.slide-in-enter
+  opacity 0.01
+  transform translateY(-20px)
+  transition opacity 5s ease-out,
+             transform 5s ease-out
+  &.slide-in-enter-active
+    opacity 1
+    transform translateY(0)
+
+.slide-in-leave
+  opacity 1
+  transform translateY(0)
+  transition opacity 0.5s ease-out,
+             transform 0.5s ease-out
+  &.slide-in-leave-active
+    opacity 0.01
+    transform translateY(-20px)
